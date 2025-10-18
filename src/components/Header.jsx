@@ -4,7 +4,7 @@ return(
 
 <header className="bg-white rounded-md flex justify-between p-4">
 
-<div className="text-2xl font-bold p-4 items-center text-black "> React for Designers</div>
+<div className="text-2xl font-bold p-4 items-center text-black ">React for Designers</div>
 
 <nav className="flex flex-row items-center gap-4">
 
