@@ -2,17 +2,26 @@ function Header(){
 
 return(
 
-<header className="bg-white">
+<header className="bg-white rounded-md flex justify-between p-4">
 
-<div className="text-2xl font-bold p-4 text-black flex flex-row w-full"> React for Designers</div>
+<div className="text-2xl font-bold p-4 items-center text-black "> React for Designers</div>
 
-<nav>
+<nav className="flex flex-row items-center gap-4">
 
-    <ul>
-        <li className="text-green-200">Home</li>
+    <ul className="text-black flex flex-row gap-4">
+        <li>Home</li>
         <li>Components</li>
         <li>Resources</li>
     </ul>
+
+    <button 
+    className="bg-gray-900 p-4 rounded-md text-white hover:bg-green-700"
+    onClick={
+()=>window.open("https://github.com/saikrishnacelupuri/react-for-designers", "_blank")
+
+    }
+    
+    >View in github</button>
 </nav>
 
 
