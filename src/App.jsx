@@ -9,6 +9,7 @@ import 'remixicon/fonts/remixicon.css'
 import CounterCart from './components/CounterCart.jsx'
 import Accordion from './components/Accordion.jsx'
 import ToggleSwitch from './components/ToggleSwitch.jsx'
+import Badge from './components/Badge.jsx'
 
 function App() {
 
@@ -17,10 +18,14 @@ function App() {
     <>
     <div className='flex flex-col gap-2'>
     <Header/>
+    <Badge text="Default Badge" variant="positive" iconBefore="ri-check-line" iconAfter="ri-asterisk"/>
+    <Badge text="Default Badge" variant="negative" iconBefore="ri-asterisk" iconAfter="ri-asterisk"/>
+    <Badge text="Default Badge" iconBefore="ri-asterisk" iconAfter="ri-asterisk"/>
+
     <Accordion/>
     <ToggleSwitch/>
     <CounterCart/>
-    <ConceptCard title="Javascript Basics"/>
+  
 
       <h1 className="text-2xl text-red-500">This is coming from main component App.jsx</h1>
     
