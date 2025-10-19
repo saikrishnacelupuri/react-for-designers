@@ -10,6 +10,7 @@ import CounterCart from './components/CounterCart.jsx'
 import Accordion from './components/Accordion.jsx'
 import ToggleSwitch from './components/ToggleSwitch.jsx'
 import Badge from './components/Badge.jsx'
+import Modal from './components/Modal.jsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <div className='flex flex-col gap-2'>
+    <Modal/>
     <Header/>
     <Badge text="Default Badge" variant="positive" iconBefore="ri-check-line" iconAfter="ri-asterisk"/>
     <Badge text="Default Badge" variant="negative" iconBefore="ri-asterisk" iconAfter="ri-asterisk"/>
