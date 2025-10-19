@@ -6,7 +6,7 @@ function ConceptCard(props)
 {
   return (
     <div className="bg-white w-[400px] p-8 text-black rounded-md flex flex-col gap-12">
-      <i class="ri-admin-line text-2xl text-red-500"></i>
+      <i className="ri-admin-line text-2xl text-red-500"></i>
 
       <div className="flex flex-col gap-4">
         <h1 className="text-2xl font-semibold">{props.title}</h1>
