@@ -1,7 +1,7 @@
 import Button from "./Button";
 
 
-function ConceptCard() 
+function ConceptCard(props) 
 
 {
   return (
@@ -9,7 +9,7 @@ function ConceptCard()
       <i class="ri-admin-line text-2xl text-red-500"></i>
 
       <div className="flex flex-col gap-4">
-        <h1 className="text-2xl font-semibold">Card title comes here</h1>
+        <h1 className="text-2xl font-semibold">{props.title}</h1>
         <p>
           Browse all available icons at the Remix Icons website (remixicon.com)
           to find appropriate icons for different React concepts

@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Header/>
-    <ConceptCard/>
+    <ConceptCard title="Javascript Basics"/>
 
       <h1 className="text-2xl text-red-500">This is coming from main component App.jsx</h1>
     
