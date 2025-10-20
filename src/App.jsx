@@ -20,6 +20,12 @@ function App() {
     <div className='flex flex-col gap-2'>
     <Modal/>
     <Header/>
+    <div className='flex flex-row gap-4'>
+    <ConceptCard/>
+    <ConceptCard/>
+    <ConceptCard/>
+
+    </div>
     <Badge text="Default Badge" variant="positive" iconBefore="ri-check-line" iconAfter="ri-asterisk"/>
     <Badge text="Default Badge" variant="negative" iconBefore="ri-asterisk" iconAfter="ri-asterisk"/>
     <Badge text="Default Badge" iconBefore="ri-asterisk" iconAfter="ri-asterisk"/>
